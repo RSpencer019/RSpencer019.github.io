@@ -73,7 +73,7 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   if (n > slide_end) {slideIndex = slidestart}
-  if (n < 1) {slideIndex = slide_end}
+  if (n < slide_start) {slideIndex = slide_end}
   for (i = slide_start - 1; i < slide_end; i++) {
      x[i].style.display = "none";
   }
@@ -110,7 +110,7 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   if (n > slide_end) {slideIndex = slidestart}
-  if (n < 1) {slideIndex = slide_end}
+  if (n < slide_start) {slideIndex = slide_end}
   for (i = slide_start - 1; i < slide_end; i++) {
      x[i].style.display = "none";
   }
@@ -147,7 +147,7 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   if (n > slide_end) {slideIndex = slidestart}
-  if (n < 1) {slideIndex = slide_end}
+  if (n < slide_start) {slideIndex = slide_end}
   for (i = slide_start - 1; i < slide_end; i++) {
      x[i].style.display = "none";
   }
