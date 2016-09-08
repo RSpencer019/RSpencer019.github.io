@@ -61,6 +61,8 @@
 
 <script>
 var slideIndex = 1;
+var slide_start = 1;
+var slide_end = 4;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -70,9 +72,9 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
+  if (n > slide_end) {slideIndex = slidestart}
+  if (n < 1) {slideIndex = slide_end}
+  for (i = slide_start - 1; i < slide_end; i++) {
      x[i].style.display = "none";
   }
   x[slideIndex-1].style.display = "block";
@@ -95,7 +97,9 @@ function showDivs(n) {
 </div>
 
 <script>
-var slideIndex = 1;
+var slideIndex = 5;
+var slide_start = 5;
+var slide_end = 8;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -105,9 +109,9 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
+  if (n > slide_end) {slideIndex = slidestart}
+  if (n < 1) {slideIndex = slide_end}
+  for (i = slide_start - 1; i < slide_end; i++) {
      x[i].style.display = "none";
   }
   x[slideIndex-1].style.display = "block";
@@ -130,7 +134,9 @@ function showDivs(n) {
 </div>
 
 <script>
-var slideIndex = 1;
+var slideIndex = 9;
+var slide_start = 9;
+var slide_end = 12;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -140,9 +146,9 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
+  if (n > slide_end) {slideIndex = slidestart}
+  if (n < 1) {slideIndex = slide_end}
+  for (i = slide_start - 1; i < slide_end; i++) {
      x[i].style.display = "none";
   }
   x[slideIndex-1].style.display = "block";
