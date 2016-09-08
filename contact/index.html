@@ -1,11 +1,56 @@
----
-layout: default
-title: Robert Sterling Spencer
----
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet"
+       type="text/css"
+        href="../css/main.css"
+  />  
+  <link rel="stylesheet"
+       type="text/css"
+        href="../css/contact.css"      
+  />  
+  <!--
+      <link rel="stylesheet"
+       type="text/css"
+        href="../css/master_mobile.css"
+  />  
+  -->
+
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header-container">
+      <div id="nav">
+        <ul>
+        <li><a href="../index.html" >Home</a></li>
+        <li><a class="break">|</a></li>
+        <li><a href="../experience/index.html" >Experience</a></li>
+        <li><a class="break">|</a></li>
+        <li><a href="../gallery/index.html" >Gallery</a></li>
+        <li><a class="break">|</a></li>
+        <li><a class="inuse" href="index.html" >Contact&nbsp;&nbsp;&nbsp;</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="margin-top:15px; float: left; ">
+      <h1> Keep in Touch </h1>
+      <div style="width:100%; float: left; height: 440px; margin-top: 5%">
+        <div style="width: 30%; display: block; float: left;">
+          <a href ="mailto:RSpencer019@gmail.com"><img src="../images/mail_logo.png" alt="Connect over email" width=15%>
+          <h4> RSpencer019 [at] gmail dot com </h4></a>
+        </div>
+        <div style="width: 30%; display: block; float: left;">
+          <a href="https://www.linkedin.com/in/RSpencer019" alt="LinkedIn"><img src="../images/linkedin_logo.png" alt="My LinkedIn Profile" width=15%><h4>in/RSpencer019</h4></a>
+          <a href="https://github.com/RSpencer019" alt="Visit my GitHub"><img src="../images/git_logo.png" alt="GitHub" width=15%><h4>gh/RSpencer019</h4></a>
+        </div>
+      </div>
+<!--       <input type="email" placeholder="Enter your email to get updates">
+      <input type="submit"> --> 
+    </div>
+  </div>
+</body>
+<footer>
+  <br><br>
+  &copy; Robert Sterling Spencer <br>
+  <a href ="mailto:RSpencer019@gmail.com"><img src="../images/mail_logo.png" alt="Connect over Email" width=2%></a> <a href="https://www.linkedin.com/in/RSpencer019" alt="Visit me on LinkedIn"><img src="../images/linkedin_logo.png" alt="LinkedIn" width=2%></a> <a href="https://github.com/RSpencer019" alt="Visit my GitHub"><img src="../images/git_logo.png" alt="GitHub" width=2%></a>
+</footer>

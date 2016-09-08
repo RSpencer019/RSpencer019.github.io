@@ -1,43 +1,188 @@
+
 body {
-    margin: 60px auto;
-    width: 70%;
+    text-align: center;
+    color: black;
+    font-family: Garamond;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
+p{
+    font-size: 24px;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 55px ;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+h2 {
+  font-size: 35px ;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+h3 {
+  font-size: 25px ;
+}
+h4 {
+  font-size: 22px;
+  text-align: center;
+}
+input {
+     border: 2;
+        padding: 10px;
+        font-size: 18px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+  text-align: right;
+  overflow: hidden;
+  list-style-type:none;
+  display: list-item
+}
+li {
+  display: inline-block;
+  max-width: 150px;
+  margin: 0;
+  padding: 0;
+}
+#nav a  {
+    display: block;
+    width: cover;
+    color:#FFFFFF;
+    font-weight: bold;
+    background-color:#000000;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#nav a.inuse{
+  display: block;
+  width: cover;
+  color:#ff0000;
+  font-weight: bold;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#nav a.break{
+  color:#FFFFFF;
+  background-color:#000000;
+}
+#header-container {
+    width: 100%;
+    height: 25px;
+    background-color: #000000;
+  position:fixed;
+}
+#nav:link, #nav:visited {
+    padding: 1px;
+    text-decoration: none;
+}
+#nav:hover, #nav:active {
+    color: #000000;
+}
+#nav a:hover.portfolio  {
+  background-color:rgba(1,1,1,0);
+  color: #000000;
+  }
+#nav a:hover.about  {
+  background-color:rgba(100%,100%,100%,0.2);
+  color: #FFFFFF;
+  }
+a.button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  font-family: Garamond;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 3px;
+  text-decoration: none;
+}
+a.button:hover {
+  color: #FFFFFF;
+  border: 3px solid #000000;
+  background: #000000;
+  text-decoration: none;
+}
+input[type="submit"] {
+      background: black;
+      color: white;
+      font-family: Garamond;
+      border: solid #000000 3px;
+      padding: 10px 20px 10px 20px;
+      font-size: 20px;
+}
+input[type="email"] {
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      color: black;
+      border: solid #000000 3px;
+      padding: 10px 20px 10px 20px;
+      font-size: 15px;
+      font-family: Garamond;
+      width:190px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+a:active, a:link {
+    color:#000000;
+    text-decoration: none;
 }
-
-ul.posts li {
-    list-style: none;
+a:hover {
+    color:#000000;
+    font-weight:bold;
+    text-decoration: none;
+    font-family:Garamond;
+}
+a.one:visited {
+    color:#000000;
+    text-decoration: none;
+}
+a.two:visited{
+    color:#666633;
+    text-decoration: none;
+}
+#container {
+   min-height:100%;
+   position:relative;
+   height: 100%;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: fixed;
+    min-width: 200px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #FFFFFF;
+    border: solid #000000 1px;
+}
+footer{
+  display:block;
+  position: absolute;
+  bottom:0px;
+  text-align:center;
+}
+.image{
+  position:relative;
+}
+.cover {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
 }

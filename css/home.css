@@ -1,0 +1,39 @@
+
+body {
+    background: url("images/IMG_0722.JPG");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+  font-size: 45px ;
+}
+input {
+   	 border: 2;
+    	padding: 10px;
+    	font-size: 18px;
+}
+input[type="submit"] {
+    	background: blue;
+    	color: black;
+}
+#nav a.selected:link, a.selected:active{
+  display: block;
+  width: cover;
+  color:#000000;
+  font-weight: bold;
+  background-color:#FFFFFF;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#header-container {
+  position:relative;
+}
+footer{
+  display:block;
+  position: absolute;
+  bottom:0px;
+}
