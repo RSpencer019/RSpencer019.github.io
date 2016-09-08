@@ -45,12 +45,7 @@
     </div>
   </div>
 
-
-  <img src="../images/IMG_0722.JPG" alt="image title" width=100%>
-  <a href="../files/Robert_Spencer_Resume.pdf" class = "button">Download My Resume</a>
-
-
-<h2 class="w3-center">Manual Slideshow</h2>
+<h2 class="w3-center">McMurdo Dry Valleys LTER, Antarctica</h2>
 
 <div class="w3-content" style="max-width:800px;position:relative">
 
@@ -83,6 +78,77 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 </script>
+
+
+<h2 class="w3-center">Ilam, Nepal</h2>
+
+<div class="w3-content" style="max-width:800px;position:relative">
+
+<img class="mySlides" src="images/Nepal/IMG_0234.JPG" style="width:100%">
+<img class="mySlides" src="images/Nepal/IMG_0256.JPG" style="width:100%">
+<img class="mySlides" src="images/Nepal/IMG_0267.JPG" style="width:100%">
+<img class="mySlides" src="images/Nepal/IMG_1139.JPG" style="width:100%">
+
+<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+<h2 class="w3-center">Architectural Visualization</h2>
+
+<div class="w3-content" style="max-width:800px;position:relative">
+
+<img class="mySlides" src="images/Arch_Viz/DAY 2 Edit.jpg" style="width:100%">
+<img class="mySlides" src="images/Arch_Viz/Rammed Earth Sunrise 3.jpg" style="width:100%">
+<img class="mySlides" src="images/Arch_Viz/Tea House.jpg" style="width:100%">
+<img class="mySlides" src="images/Arch_Viz/TEST RENDER Courtyard.jpg" style="width:100%">
+
+<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
 
 
 
