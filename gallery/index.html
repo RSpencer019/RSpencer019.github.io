@@ -52,14 +52,35 @@
 
 		<div class="w3-content" style="max-width:800px;position:relative">
 
-		<img class="mySlides" src="images/Antarctica/IMG_0665.JPG" style="width:100%">
-		<img class="mySlides" src="images/Antarctica/IMG_0722.JPG" style="width:100%">
-		<img class="mySlides" src="images/Antarctica/IMG_0723.JPG" style="width:100%">
-		<img class="mySlides" src="images/Antarctica/IMG_0752.JPG" style="width:100%">
+			<img class="mySlides" src="images/Antarctica/IMG_0665.JPG" style="width:100%">
+			<img class="mySlides" src="images/Antarctica/IMG_0722.JPG" style="width:100%">
+			<img class="mySlides" src="images/Antarctica/IMG_0723.JPG" style="width:100%">
+			<img class="mySlides" src="images/Antarctica/IMG_0752.JPG" style="width:100%">
 
-		<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-		<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+			<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+			<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
 
+		</div>
+
+		<div class="w3-content" style="max-width:1200px">
+			<img class="mySlides" src="images/Antarctica/IMG_0722.JPG" style="width:100%">
+			<img class="mySlides" src="images/Antarctica/IMG_0723.JPG" style="width:100%">
+			<img class="mySlides" src="images/Antarctica/IMG_0752.JPG" style="width:100%">
+
+		  <div class="w3-row-padding w3-section">
+		    <div class="w3-col s4">
+		      <img class="demo w3-border w3-hover-shadow" 
+		      src="images/Antarctica/IMG_0722.JPG" onclick="currentDiv(1)">
+		    </div>
+		    <div class="w3-col s4">
+		      <img class="demo w3-border w3-hover-shadow"
+		      src="images/Antarctica/IMG_0723.JPG" onclick="currentDiv(2)">
+		    </div>
+		    <div class="w3-col s4">
+		      <img class="demo w3-border w3-hover-shadow" 
+		      src="images/Antarctica/IMG_0752.JPG" onclick="currentDiv(3)">
+		    </div>
+		  </div>
 		</div>
 
 		<script>
@@ -124,45 +145,6 @@
 		</script>
 
 	</section>
-
-
-
-<h2 class="w3-center">Architectural Visualization</h2>
-
-<div class="w3-content" style="max-width:800px;position:relative">
-
-<img class="mySlides" src="images/Arch_Viz/DAY 2 Edit.jpg" style="width:100%">
-<img class="mySlides" src="images/Arch_Viz/Rammed Earth Sunrise 3.jpg" style="width:100%">
-<img class="mySlides" src="images/Arch_Viz/Tea House.jpg" style="width:100%">
-<img class="mySlides" src="images/Arch_Viz/TEST RENDER Courtyard.jpg" style="width:100%">
-
-<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
-
-</div>
-
-<script>
-var slideIndex = 9;
-var slide_start = 9;
-var slide_end = 12;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x3 = document.getElementsByClassName("mySlides");
-  if (n > slide_end) {slideIndex = slidestart}
-  if (n < slide_start) {slideIndex = slide_end}
-  for (i = slide_start - 1; i < slide_end; i++) {
-     x3[i].style.display = "none";
-  }
-  x3[slideIndex-1].style.display = "block";
-}
-</script>
-
 
 
 
