@@ -91,8 +91,8 @@ function showDivs(n) {
 <img class="mySlides" src="images/Nepal/IMG_0267.JPG" style="width:100%">
 <img class="mySlides" src="images/Nepal/IMG_1139.JPG" style="width:100%">
 
-<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs2(-1)">❮</a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs2(1)">❯</a>
 
 </div>
 
@@ -100,13 +100,13 @@ function showDivs(n) {
 var slideIndex = 5;
 var slide_start = 5;
 var slide_end = 8;
-showDivs(slideIndex);
+showDivs2(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusDivs2(n) {
+  showDivs2(slideIndex += n);
 }
 
-function showDivs(n) {
+function showDivs2(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   if (n > slide_end) {slideIndex = slidestart}
