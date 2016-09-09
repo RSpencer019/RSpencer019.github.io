@@ -30,10 +30,10 @@ input[type="submit"] {
   text-transform: uppercase;
 }
 #header-container {
-  position:relative;
+  position:center;
 }
 footer{
   display:block;
-  position: absolute;
+  position:absolute;
   bottom:0px;
 }
