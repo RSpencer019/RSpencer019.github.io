@@ -69,7 +69,7 @@
 	function showDivs(n) {
 	  var i;
 	  var x1 = document.getElementsByClassName("mySlides");
-	  if (n > slide_end) {slideIndex = slidestart}
+	  if (n > slide_end) {slideIndex = slide_start}
 	  if (n < slide_start) {slideIndex = slide_end}
 	  for (i = slide_start - 1; i < slide_end; i++) {
 	     x1[i].style.display = "none";
@@ -109,7 +109,7 @@
 	function showDivs2(n) {
 	  var i;
 	  var x2 = document.getElementsByClassName("mySlides");
-	  if (n > slide_end2) {slideIndex2 = slidestart}
+	  if (n > slide_end2) {slideIndex2 = slide_start2}
 	  if (n < slide_start2) {slideIndex2 = slide_end2}
 	  for (i = slide_start2 - 1; i < slide_end2; i++) {
 	     x2[i].style.display = "none";
