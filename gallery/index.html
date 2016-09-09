@@ -97,24 +97,24 @@
 	</div>
 
 	<script>
-	var slideIndex = 5;
-	var slide_start = 5;
-	var slide_end = 8;
-	showDivs2(slideIndex);
+	var slideIndex2 = 5;
+	var slide_start2 = 5;
+	var slide_end2 = 8;
+	showDivs2(slideIndex2);
 
 	function plusDivs2(n) {
-	  showDivs2(slideIndex += n);
+	  showDivs2(slideIndex2 += n);
 	}
 
 	function showDivs2(n) {
 	  var i;
 	  var x2 = document.getElementsByClassName("mySlides");
-	  if (n > slide_end) {slideIndex = slidestart}
-	  if (n < slide_start) {slideIndex = slide_end}
-	  for (i = slide_start - 1; i < slide_end; i++) {
+	  if (n > slide_end2) {slideIndex2 = slidestart}
+	  if (n < slide_start2) {slideIndex2 = slide_end2}
+	  for (i = slide_start2 - 1; i < slide_end2; i++) {
 	     x2[i].style.display = "none";
 	  }
-	  x2[slideIndex-1].style.display = "block";
+	  x2[slideIndex2-1].style.display = "block";
 	}
 	</script>
 
