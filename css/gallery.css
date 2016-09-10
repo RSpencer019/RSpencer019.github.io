@@ -76,17 +76,3 @@ footer{
   text-align:center;
   background-color:#FFFFFF;
 }
-#col2of3 {
-  width: 1200px;
-  height: 1200px;
-  display: inline-block;
-  text-color: white;
-}
-#col2of3 ul {
-  list-style-type: none;
-  white-space: nowrap;
-  overflow-x: auto;
-}
-#col2of3 li {
-  display: inline;
-}
