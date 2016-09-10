@@ -60,7 +60,7 @@ li {
 #nav a.inuse{
   display: block;
   width: cover;
-  color:#ff0000;
+  color:#8cc8ff;
   font-weight: bold;
   text-align: center;
   padding: 2px;
@@ -72,7 +72,7 @@ li {
   background-color:#000000;
 }
 #header-container {
-    width: 50%;
+    width: 100%;
     height: 25px;
     background-color: #000000;
   position:fixed;
