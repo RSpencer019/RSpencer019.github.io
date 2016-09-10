@@ -64,3 +64,9 @@ a:link,a:visited {
 a:hover,a:active{
   color: rgba(0,0,0,0.5);
 }
+footer{
+  position:relative;
+  clear: both;
+  text-align:center;
+  background-color:#000000;
+}
