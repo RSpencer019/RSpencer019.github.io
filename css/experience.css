@@ -14,6 +14,10 @@ body {
   margin: 0;
   padding: 0;
 }
+h1 {
+  font-size: 35px ;
+  text-align left;
+}
 h2 {
   font-size: 30px ;
   text-align left;
@@ -27,7 +31,7 @@ h3 {
   padding:0;
 }
 h4 {
-  font-size: 15px;
+  font-size: 18px;
   width: 800px;
   text-align: left;
   margin:0;
@@ -51,7 +55,7 @@ section {
 }
 aside {
   float: right;
-  width: 74% ;
+  width: 95% ;
   margin: 0 1.5%;
 }
 .left{
