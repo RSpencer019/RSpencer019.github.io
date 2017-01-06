@@ -133,29 +133,22 @@
 
 
 
-	<br/><h2> Architectural Visualization </h2>
+
+	<br/><h2> Presentations </h2>
 
 	<a class="w3-btn-floating" style="position:relative" onclick="plusDivs3(-1)"><img src="../images/back_logo.png" alt="BACK" width=2%></a>
 	<a class="w3-btn-floating" style="position:relative" onclick="plusDivs3(1)"><img src="../images/next_logo.png" alt="NEXT" width=2%></a>
 
 	<div class="w3-content" style="max-width:1000px;position:relative">
 
-	<img class="mySlides" src="images/Arch_Viz/AREA 3.jpg" style="width:100%">
-	<img class="mySlides" src="images/Arch_Viz/DAY 2 Edit.jpg" style="width:100%">
-	<img class="mySlides" src="images/Arch_Viz/Rammed Earth Sunrise 3.jpg" style="width:100%">
-	<img class="mySlides" src="images/Arch_Viz/Tea House.jpg" style="width:100%">
-	<img class="mySlides" src="images/Arch_Viz/Stair 3.jpg" style="width:100%">
-	<img class="mySlides" src="images/Arch_Viz/TEST RENDER Courtyard.jpg" style="width:100%">
-
-
-
+	<img class="mySlides" src="images/POSTER_AGU3.jpg" style="width:100%">
 
 	</div>
 
 	<script>
 	var slideIndex3 = 19;
 	var slide_start3 = 19;
-	var slide_end3 = 24;
+	var slide_end3 = 20;
 	showDivs3(slideIndex3);
 
 	function plusDivs3(n) {
@@ -171,6 +164,47 @@
 	     x3[i].style.display = "none";
 	  }
 	  x3[slideIndex3-1].style.display = "block";
+	}
+	</script>
+
+
+
+
+	<br/><h2> Architectural Visualization </h2>
+
+	<a class="w3-btn-floating" style="position:relative" onclick="plusDivs3(-1)"><img src="../images/back_logo.png" alt="BACK" width=2%></a>
+	<a class="w3-btn-floating" style="position:relative" onclick="plusDivs3(1)"><img src="../images/next_logo.png" alt="NEXT" width=2%></a>
+
+	<div class="w3-content" style="max-width:1000px;position:relative">
+
+	<img class="mySlides" src="images/Arch_Viz/AREA 3.jpg" style="width:100%">
+	<img class="mySlides" src="images/Arch_Viz/DAY 2 Edit.jpg" style="width:100%">
+	<img class="mySlides" src="images/Arch_Viz/Rammed Earth Sunrise 3.jpg" style="width:100%">
+	<img class="mySlides" src="images/Arch_Viz/Tea House.jpg" style="width:100%">
+	<img class="mySlides" src="images/Arch_Viz/Stair 3.jpg" style="width:100%">
+	<img class="mySlides" src="images/Arch_Viz/TEST RENDER Courtyard.jpg" style="width:100%">
+
+	</div>
+
+	<script>
+	var slideIndex4 = 20;
+	var slide_start4 = 20;
+	var slide_end4 = 25;
+	showDivs4(slideIndex4);
+
+	function plusDivs4(n) {
+	  showDivs4(slideIndex4 += n);
+	}
+
+	function showDivs4(n) {
+	  var i;
+	  var x4 = document.getElementsByClassName("mySlides");
+	  if (n > slide_end4) {slideIndex4 = slide_start4}
+	  if (n < slide_start4) {slideIndex4 = slide_end4}
+	  for (i = slide_start4 - 1; i < slide_end4; i++) {
+	     x4[i].style.display = "none";
+	  }
+	  x4[slideIndex4-1].style.display = "block";
 	}
 	</script>
 
