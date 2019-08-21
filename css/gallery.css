@@ -76,3 +76,19 @@ footer{
   text-align:center;
   background-color:#FFFFFF;
 }
+
+div.gallery {
+  margin: 5px;
+  border: 3px solid #fff;
+  float: left;
+  height: 100px;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: auto;
+  height: 100%;
+}
