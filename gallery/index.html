@@ -19,10 +19,36 @@
   <style>
   .mySlides {display:none}
   </style>
+
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+	<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<!-- Magnific Popup core JS file -->
+	<script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+
+
 </head>
 
 
 <body>
+
+<script>
+	$(document).ready(function() {
+	  $('.parent-container').each(function() {
+	  	$(this).magnificPopup({
+		  	delegate: 'a',
+		  	type:'image',
+		  	gallery: {
+	        enabled:true
+	      }
+		  });
+	  });
+	});
+</script>
+
 <div id="wrapper">
 	<div id="header-container">
 		<div id="nav">
@@ -41,78 +67,83 @@
 	<br><br>
 
 	<div style="float:left">
+
 		<h2>&nbsp;&nbsp;Data Science & Visualization </h2>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/AGU_POSTER.jpg">
-		    <img src="images/Portfolio_Samples/AGU_POSTER.jpg" width="600" height="400">
-		  </a>
-		</div>
+		<div class="parent-container">
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/hevi.png">
-		    <img src="images/Portfolio_Samples/hevi.png" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/AGU_POSTER.jpg">
+			    <img src="images/Portfolio_Samples/AGU_POSTER.jpg" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/vr.png">
-		    <img src="images/Portfolio_Samples/vr.png" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/hevi.png">
+			    <img src="images/Portfolio_Samples/hevi.png" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/dsolar.png">
-		    <img src="images/Portfolio_Samples/dsolar.png" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/vr.png">
+			    <img src="images/Portfolio_Samples/vr.png" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/fpv.png">
-		    <img src="images/Portfolio_Samples/fpv.png" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/dsolar.png">
+			    <img src="images/Portfolio_Samples/dsolar.png" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/interactive_viz.png">
-		    <img src="images/Portfolio_Samples/interactive_viz.png" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/fpv.png">
+			    <img src="images/Portfolio_Samples/fpv.png" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/dashboards.png">
-		    <img src="images/Portfolio_Samples/dashboards.png" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/interactive_viz.png">
+			    <img src="images/Portfolio_Samples/interactive_viz.png" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/ANN.gif">
-		    <img src="images/Portfolio_Samples/ANN.gif" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/dashboards.png">
+			    <img src="images/Portfolio_Samples/dashboards.png" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/Density_Animation.gif">
-		    <img src="images/Portfolio_Samples/Density_Animation.gif" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/ANN.gif">
+			    <img src="images/Portfolio_Samples/ANN.gif" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/Brushy_Major.jpg">
-		    <img src="images/Portfolio_Samples/Brushy_Major.jpg" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/Density_Animation.gif">
+			    <img src="images/Portfolio_Samples/Density_Animation.gif" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/Brushy_Overview.jpg">
-		    <img src="images/Portfolio_Samples/Brushy_Overview.jpg" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/Brushy_Major.jpg">
+			    <img src="images/Portfolio_Samples/Brushy_Major.jpg" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Portfolio_Samples/IMG_1523.JPG">
-		    <img src="images/Portfolio_Samples/IMG_1523.JPG" width="600" height="400">
-		  </a>
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/Brushy_Overview.jpg">
+			    <img src="images/Portfolio_Samples/Brushy_Overview.jpg" width="600" height="400">
+			  </a>
+			</div>
+
+			<div class="gallery">
+			  <a href="images/Portfolio_Samples/IMG_1523.JPG">
+			    <img src="images/Portfolio_Samples/IMG_1523.JPG" width="600" height="400">
+			  </a>
+			</div>
+
 		</div>
 
 	</div>
@@ -120,40 +151,44 @@
 	<div style="float:left">
 		<h2>&nbsp;&nbsp;Architectural Visualization </h2>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Arch_Viz/AREA 3.jpg">
-		    <img src="images/Arch_Viz/AREA 3.jpg" width="600" height="400">
-		  </a>
-		</div>
+		<div class="parent-container">
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Arch_Viz/DAY 2 Edit.jpg">
-		    <img src="images/Arch_Viz/DAY 2 Edit.jpg" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Arch_Viz/AREA 3.jpg">
+			    <img src="images/Arch_Viz/AREA 3.jpg" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Arch_Viz/Rammed Earth Sunrise 3.jpg">
-		    <img src="images/Arch_Viz/Rammed Earth Sunrise 3.jpg" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Arch_Viz/DAY 2 Edit.jpg">
+			    <img src="images/Arch_Viz/DAY 2 Edit.jpg" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Arch_Viz/Tea House.jpg">
-		    <img src="images/Arch_Viz/Tea House.jpg" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Arch_Viz/Rammed Earth Sunrise 3.jpg">
+			    <img src="images/Arch_Viz/Rammed Earth Sunrise 3.jpg" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Arch_Viz/Stair 3.jpg">
-		    <img src="images/Arch_Viz/Stair 3.jpg" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Arch_Viz/Tea House.jpg">
+			    <img src="images/Arch_Viz/Tea House.jpg" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Arch_Viz/TEST RENDER Courtyard.jpg">
-		    <img src="images/Arch_Viz/TEST RENDER Courtyard.jpg" width="600" height="400">
-		  </a>
+			<div class="gallery">
+			  <a href="images/Arch_Viz/Stair 3.jpg">
+			    <img src="images/Arch_Viz/Stair 3.jpg" width="600" height="400">
+			  </a>
+			</div>
+
+			<div class="gallery">
+			  <a href="images/Arch_Viz/TEST RENDER Courtyard.jpg">
+			    <img src="images/Arch_Viz/TEST RENDER Courtyard.jpg" width="600" height="400">
+			  </a>
+			</div>
+
 		</div>
 
 	</div>
@@ -161,76 +196,80 @@
 	<div style="float:left">
 		<h2>&nbsp;&nbsp;McMurdo Dry Valleys LTER, Antarctica</h2>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/IMG_0665.JPG">
-		    <img src="images/Antarctica/IMG_0665.JPG" width="600" height="400">
-		  </a>
-		</div>
+		<div class="parent-container">
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/IMG_0722.JPG">
-		    <img src="images/Antarctica/IMG_0722.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/IMG_0665.JPG">
+			    <img src="images/Antarctica/IMG_0665.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/IMG_0723.JPG">
-		    <img src="images/Antarctica/IMG_0723.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/IMG_0722.JPG">
+			    <img src="images/Antarctica/IMG_0722.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/IMG_0752.JPG">
-		    <img src="images/Antarctica/IMG_0752.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/IMG_0723.JPG">
+			    <img src="images/Antarctica/IMG_0723.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/IMG_0777.JPG">
-		    <img src="images/Antarctica/IMG_0777.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/IMG_0752.JPG">
+			    <img src="images/Antarctica/IMG_0752.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/IMG_0946.JPG">
-		    <img src="images/Antarctica/IMG_0946.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/IMG_0777.JPG">
+			    <img src="images/Antarctica/IMG_0777.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/IMG_0952.JPG">
-		    <img src="images/Antarctica/IMG_0952.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/IMG_0946.JPG">
+			    <img src="images/Antarctica/IMG_0946.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/IMG_1019.JPG">
-		    <img src="images/Antarctica/IMG_1019.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/IMG_0952.JPG">
+			    <img src="images/Antarctica/IMG_0952.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/P1070148.JPG">
-		    <img src="images/Antarctica/P1070148.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/IMG_1019.JPG">
+			    <img src="images/Antarctica/IMG_1019.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/P1070958 (1).JPG">
-		    <img src="images/Antarctica/P1070958 (1).JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/P1070148.JPG">
+			    <img src="images/Antarctica/P1070148.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/P1080048.JPG">
-		    <img src="images/Antarctica/P1080048.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Antarctica/P1070958 (1).JPG">
+			    <img src="images/Antarctica/P1070958 (1).JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Antarctica/P1080152.JPG">
-		    <img src="images/Antarctica/P1080152.JPG" width="600" height="400">
-		  </a>
+			<div class="gallery">
+			  <a href="images/Antarctica/P1080048.JPG">
+			    <img src="images/Antarctica/P1080048.JPG" width="600" height="400">
+			  </a>
+			</div>
+
+			<div class="gallery">
+			  <a href="images/Antarctica/P1080152.JPG">
+			    <img src="images/Antarctica/P1080152.JPG" width="600" height="400">
+			  </a>
+			</div>
+
 		</div>
 
 	</div>
@@ -238,40 +277,44 @@
 	<div style="float:left">
 		<h2>&nbsp;&nbsp;Ilam, Nepal </h2>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Nepal/IMG_0234.JPG">
-		    <img src="images/Nepal/IMG_0234.JPG" width="600" height="400">
-		  </a>
-		</div>
+		<div class="parent-container">
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Nepal/IMG_0256.JPG">
-		    <img src="images/Nepal/IMG_0256.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Nepal/IMG_0234.JPG">
+			    <img src="images/Nepal/IMG_0234.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Nepal/IMG_0267.JPG">
-		    <img src="images/Nepal/IMG_0267.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Nepal/IMG_0256.JPG">
+			    <img src="images/Nepal/IMG_0256.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Nepal/IMG_1139.JPG">
-		    <img src="images/Nepal/IMG_1139.JPG" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Nepal/IMG_0267.JPG">
+			    <img src="images/Nepal/IMG_0267.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Nepal/528680_4168560545574_624171635_n.jpg">
-		    <img src="images/Nepal/528680_4168560545574_624171635_n.jpg" width="600" height="400">
-		  </a>
-		</div>
+			<div class="gallery">
+			  <a href="images/Nepal/IMG_1139.JPG">
+			    <img src="images/Nepal/IMG_1139.JPG" width="600" height="400">
+			  </a>
+			</div>
 
-		<div class="gallery">
-		  <a target="_blank" href="images/Nepal/P5230122.JPG">
-		    <img src="images/Nepal/P5230122.JPG" width="600" height="400">
-		  </a>
+			<div class="gallery">
+			  <a href="images/Nepal/528680_4168560545574_624171635_n.jpg">
+			    <img src="images/Nepal/528680_4168560545574_624171635_n.jpg" width="600" height="400">
+			  </a>
+			</div>
+
+			<div class="gallery">
+			  <a href="images/Nepal/P5230122.JPG">
+			    <img src="images/Nepal/P5230122.JPG" width="600" height="400">
+			  </a>
+			</div>
+
 		</div>
 
 	</div>
@@ -281,8 +324,7 @@
 </body>
 <footer>
   <br><br><br>
-  &copy; Robert Sterling Spencer <br>
-  <a href ="mailto:RSpencer019@gmail.com"><img src="../images/mail_logo.png" alt="Connect over email" width=2%></a> <a href="https://www.linkedin.com/in/robertsterlingspencer/" alt="Visit me on LinkedIn"><img src="../images/linkedin_logo.png" alt="My LinkedIn Profile" width=2%></a>
+  &copy; Robert Sterling Spencer <br> <br>
 </footer>
 
 

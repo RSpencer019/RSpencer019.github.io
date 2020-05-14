@@ -1,6 +1,8 @@
 
 body {
     text-align:left;
+    background-color: #252525;
+    color: white;
 }
 #nav ul {
  	list-style-type: none;
@@ -74,18 +76,18 @@ footer{
   position:relative;
   clear: both;
   text-align:center;
-  background-color:#FFFFFF;
 }
 
 div.gallery {
   margin: 5px;
-  border: 3px solid #fff;
+  border: 3px solid #808080;
+  border-radius: 4px;
   float: left;
   height: 100px;
 }
 
 div.gallery:hover {
-  border: 3px solid #777;
+  border: 3px solid #fff;
 }
 
 div.gallery img {
