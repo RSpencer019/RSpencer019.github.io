@@ -1,8 +1,18 @@
 
+@font-face {
+  font-family: roboto;
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-medium;
+  src: url(/fonts/Roboto/Roboto-Bold.ttf);
+}
+
 body {
     text-align: center;
     color: black;
-    font-family: Garamond;
+    font-family: roboto;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -95,7 +105,7 @@ li {
 a.button {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  font-family: Garamond;
+  font-family: roboto-medium;
   color: black;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -111,7 +121,7 @@ a.button:hover {
 input[type="submit"] {
       background: black;
       color: white;
-      font-family: Garamond;
+      font-family: roboto-medium;
       border: solid #000000 3px;
       padding: 10px 20px 10px 20px;
       font-size: 20px;
@@ -123,7 +133,7 @@ input[type="email"] {
       border: solid #000000 3px;
       padding: 10px 20px 10px 20px;
       font-size: 15px;
-      font-family: Garamond;
+      font-family: roboto-medium;
       width:190px;
 }
 
@@ -135,7 +145,7 @@ a:hover {
     color:#000000;
     font-weight:bold;
     text-decoration: none;
-    font-family:Garamond;
+    font-family: roboto-medium;
 }
 a.one:visited {
     color:#000000;

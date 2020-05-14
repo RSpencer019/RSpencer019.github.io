@@ -3,7 +3,7 @@ body {
     background: url("");
     text-align: center;
     color: black;
-    font-family: Garamond;
+    font-family: roboto;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ h4 {
   text-align: center;
 }
 h4:hover{
-  font-family: Garamond;
+  font-family: roboto-medium;
 }
 #header-container {
   width: 100%;
