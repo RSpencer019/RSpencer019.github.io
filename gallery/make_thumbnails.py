@@ -12,7 +12,7 @@ from pathlib import Path
 from PIL import Image
 
 
-MAX_SIZE = 400
+MAX_SIZE = 200
 DIR = Path(__file__).resolve().parent / 'images'
 
 
@@ -47,6 +47,8 @@ def create_thumbnail(
 def main():
     for root, _, files in os.walk(DIR):
         for file in files:
+            if 'thumbnail' in file:
+                continue
             if file.lower().endswith('.jpg') or file.lower().endswith('.jpeg') or file.lower().endswith('.png'):
                 create_thumbnail(Path(root) / file)
 
